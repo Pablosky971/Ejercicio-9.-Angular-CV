@@ -1,0 +1,73 @@
+h1{
+    color: grey;
+}
+
+h2 {
+    color: lawngreen
+}
+
+img.mifoto{
+    position: absolute;
+    text-align: left;
+    max-width: 300px;
+    max-height: 300px;
+    left: 30%;
+    top: 17%
+
+}
+
+
+@media (orientation: portrait) {
+
+    header {
+        width: 25%;
+    }
+    
+    h2 {
+        color: lawngreen;
+       
+    }
+    
+    img.mifoto{
+        position: relative;
+        text-align: left;
+        max-width: 100px;
+        max-height: 100px;
+        left: 16%;
+        top: 17%
+    
+    }
+    
+    
+    
+}
+
+@media (orientation: landscape) {
+    
+    header {
+        width: 40%;
+    }
+   
+    
+    h2 {
+        color: lawngreen;
+        
+    }
+    
+    img.mifoto{
+        position: relative;
+        text-align: left;
+        max-width: 300px;
+        max-height: 300px;
+        left: 16%;
+        top: 20%
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+}
